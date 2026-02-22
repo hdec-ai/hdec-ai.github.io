@@ -18,13 +18,13 @@
         background-color: #ffffff;
     }
     
-    /* 링크 버튼 스타일 (크기 확대) */
+    /* 활성화된 링크 버튼 스타일 (녹색) */
     .btn-read {
         display: inline-block;
-        font-size: 15px; /* 13px -> 15px 로 키움 */
+        font-size: 15px; 
         color: #ffffff !important;
         background-color: #004D40;
-        padding: 6px 14px; /* 클릭하기 편하게 여백 확대 */
+        padding: 6px 14px; 
         border-radius: 4px;
         text-decoration: none;
         font-weight: normal;
@@ -33,6 +33,21 @@
     }
     .btn-read:hover {
         background-color: #00332a;
+    }
+
+    /* 비활성화된 예정 버튼 스타일 (회색) */
+    .btn-pending {
+        display: inline-block;
+        font-size: 15px; 
+        color: #ffffff !important;
+        background-color: #aaaaaa; /* 부드러운 회색 */
+        padding: 6px 14px; 
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: normal;
+        line-height: 1;
+        white-space: nowrap;
+        cursor: default; /* 클릭 안 되는 마우스 커서 */
     }
 
     /* 유틸리티 클래스 */
@@ -64,7 +79,8 @@
                         </tr>
                         <tr>
                             <td style="color: #80CBC4; font-size: 15px; font-weight: normal;">
-                                HDEC AI Tansformation </td>
+                                HDEC AI Insight 
+                            </td>
                         </tr>
                     </table>
                 </td>
@@ -105,9 +121,9 @@
                 <div class="flex-row-center" style="padding-left: 25px; font-size: 16px; color: #333333;">
                     <div style="display: flex; align-items: center;">
                         <span style="color: #004D40; font-weight: bold; margin-right: 8px;">↳</span>
-                        <span>2.1. 컴퓨터의 작동원리</span>
+                        <span>2.1. 컴퓨터의 특징</span>
                     </div>
-                    <a href="vol02.html" class="btn-read" style="margin-left: 15px;">보러가기</a>
+                    <span class="btn-pending" style="margin-left: 15px;">2월 25일 예정</span>
                 </div>
             </div>
 
@@ -127,7 +143,7 @@
             </div>
 
             <div class="flex-row-center" style="padding: 20px 0; border-bottom: 1px solid #EEEEEE;">
-                <strong style="font-size: 18px; color: #999999;">6. 이상향</strong>
+                <strong style="font-size: 18px; color: #999999;">6. 이상향 (AI Transformation)</strong>
                 <span style="font-size: 14px; color: #aaaaaa; font-weight: bold;">(연재 예정)</span>
             </div>
 
@@ -144,7 +160,7 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <td style="color: #999999; font-size: 13px; line-height: 1.6;">
-                                Copyright © 2026 HYUNDAI E&C. All rights reserved.<br>
+                                Copyright © 2026 Hyundai E&C. All rights reserved.<br>
                                 Created by 나현수 매니저.
                             </td>
                         </tr>
