@@ -14,11 +14,17 @@
         mso-line-height-rule: exactly;
     }
     
+    /* PC 너비 설정 (웹:1000px / 메일:800px) */
+    .wrapper {
+        width: 1000px !important;
+        max-width: 1000px !important;
+    }
+
     /* 모바일용 스타일 */
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
         .wrapper { width: 100% !important; max-width: 100% !important; }
         .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; }
-        .mobile-text { font-size: 16px !important; line-height: 1.6 !important; }
+        .mobile-text { font-size: 18px !important; line-height: 1.8 !important; }
         .mobile-header { font-size: 28px !important; }
     }
     
@@ -29,21 +35,21 @@
 <body style="margin: 0; padding: 0; background-color: #ffffff;">
 
     <center style="width: 100%; table-layout: fixed; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
-        <div style="max-width: 800px; margin: 0 auto;">
+        <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
             
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 800px; margin: 0 auto;" class="wrapper" bgcolor="#ffffff">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 1000px; margin: 0 auto;" class="wrapper" bgcolor="#ffffff">
                 
                 <tr>
                     <td bgcolor="#004D40" class="mobile-padding" style="padding: 40px 50px;">
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <td class="mobile-header" style="color: #ffffff; font-family: 'Times New Roman', serif; font-size: 36px; font-weight: bold; padding-bottom: 10px;">
-                                    AI Insight
+                                    AI Insight : 소개
                                 </td>
                             </tr>
                             <tr>
-                                <td style="color: #80CBC4; font-size: 14px; font-weight: normal;">
-                                    현대건설 Business Management Report | VOL.01 | 2026.02.15
+                                <td style="color: #80CBC4; font-size: 15px; font-weight: normal;">
+                                    VOL.01 | 2026.02.15
                                 </td>
                             </tr>
                         </table>
@@ -52,14 +58,14 @@
 
                 <tr>
                     <td class="mobile-padding" style="padding: 30px 50px 0 50px;">
-                        <p style="margin: 0 0 10px 0; font-size: 14px; color: #004D40; font-weight: bold;">
+                        <p style="margin: 0 0 10px 0; font-size: 16px; color: #004D40; font-weight: bold;">
                             📌 AI 한 줄 요약
                         </p>
                         <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F5F5F5">
                             <tr>
                                 <td width="5" bgcolor="#004D40" style="width: 5px; font-size: 0; line-height: 0;">&nbsp;</td>
                                 <td style="padding: 20px 25px;">
-                                    <p class="mobile-text" style="margin: 0; font-size: 17px; line-height: 1.6; color: #333333; font-weight: bold;">
+                                    <p class="mobile-text" style="margin: 0; font-size: 20px; line-height: 1.6; color: #333333; font-weight: bold;">
                                         "우리는 AI 기술의 '감각'을 챙긴다."
                                     </p>
                                 </td>
@@ -70,16 +76,16 @@
 
                 <tr>
                     <td class="mobile-padding" style="padding: 30px 50px;">
-                        <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 16px; color: #333333; font-weight: bold;">
+                        <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 18px; color: #333333; font-weight: bold;">
                             안녕하십니까, 사업관리팀 나현수 매니저입니다.
                         </p>
-                        <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 16px; color: #555555; line-height: 1.8; text-align: justify;">
-                            이제 AI는 선택이 아닌 필수가 되었습니다. 많은 임직원 여러분께서도 현업에서 그 변화를 체감하고 계실 것으로 생각합니다.
+                        <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 18px; color: #555555; line-height: 1.8; text-align: justify;">
+                            이제 AI는 선택이 아닌 필수가 되었습니다. 많은 임직원 여러분께서도 AI의 힘을 체감하고 계실 것으로 생각합니다.
                         </p>
-                        <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 16px; color: #555555; line-height: 1.8; text-align: justify;">
-                            AI 도입의 궁극적인 목적은 기술 그 자체가 아니라, <strong style="color:#000000;">실질적인 업무 효율화와 손익 개선</strong> 에 있습니다. 이를 달성하기 위해서는 무엇보다 <strong style="color:#000000;">실무자분들의 AI 감각</strong>이 중요합니다.
+                        <p class="mobile-text" style="margin: 0 0 15px 0; font-size: 18px; color: #555555; line-height: 1.8; text-align: justify;">
+                            AI 도입의 궁극적인 목적은 기술 그 자체가 아니라, <strong style="color:#000000;">실질적인 업무 효율화와 손익 개선</strong>에 있습니다. <br>이를 달성하기 위해서는, 무엇보다 <strong style="color:#000000;">여러분의 AI 감각</strong>이 중요합니다.
                         </p>
-                        <p class="mobile-text" style="margin: 0; font-size: 16px; color: #555555; line-height: 1.8; text-align: justify;">
+                        <p class="mobile-text" style="margin: 0; font-size: 18px; color: #555555; line-height: 1.8; text-align: justify;">
                             AI가 일시적인 흐름을 넘어 효율적인 도구로 자리 잡을 수 있도록, <strong style="color:#000000;">[AI Insight]</strong> 시리즈를 시작합니다.
                         </p>
                     </td>
@@ -95,50 +101,50 @@
 
                 <tr>
                     <td class="mobile-padding" style="padding: 40px 50px;">
-                        <h2 style="margin: 0 0 20px 0; font-size: 22px; color: #111111; font-weight: bold;">
+                        <h2 style="margin: 0 0 20px 0; font-size: 26px; color: #111111; font-weight: bold;">
                             AI 과학자의 3가지 핵심 역량
                         </h2>
-                        <p class="mobile-text" style="margin: 0 0 30px 0; font-size: 16px; color: #666666; line-height: 1.6;">
+                        <p class="mobile-text" style="margin: 0 0 30px 0; font-size: 18px; color: #666666; line-height: 1.8;">
                             보통 다음 3가지 역량이 필요하다고 합니다. 하지만 걱정하지 마십시오.<br>
                             우리는 <strong style="color:#000000;">2번과 3번의 감각</strong>만 익히면 됩니다. 나머지 디테일은 AI가 해결합니다.
                         </p>
 
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                                <td width="50" valign="top" style="padding-bottom: 25px;">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="36">
-                                        <tr><td height="36" bgcolor="#EEEEEE" align="center" style="color: #888888; font-weight: bold; border-radius: 50%;">01</td></tr>
+                                <td width="55" valign="top" style="padding-bottom: 25px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="40">
+                                        <tr><td height="40" bgcolor="#EEEEEE" align="center" style="color: #888888; font-weight: bold; border-radius: 50%; font-size: 16px;">01</td></tr>
                                     </table>
                                 </td>
                                 <td valign="top" style="padding-bottom: 25px;">
-                                    <span style="font-size: 17px; color: #888888;">도메인 지식 (Domain Knowledge)</span>
-                                    <p class="mobile-text" style="margin: 5px 0 0 0; font-size: 15px; color: #888888; line-height: 1.5;">
+                                    <span style="font-size: 20px; color: #888888;">도메인 지식 (Domain Knowledge)</span>
+                                    <p class="mobile-text" style="margin: 8px 0 0 0; font-size: 18px; color: #888888; line-height: 1.6;">
                                         건설업 전문가이신 여러분이 이미 완벽하게 보유하고 계십니다. 가장 중요한 역량입니다.
                                     </p>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="50" valign="top" style="padding-bottom: 25px;">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="36">
-                                        <tr><td height="36" bgcolor="#E0F2F1" align="center" style="color: #004D40; font-weight: bold; border-radius: 50%;">02</td></tr>
+                                <td width="55" valign="top" style="padding-bottom: 25px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="40">
+                                        <tr><td height="40" bgcolor="#E0F2F1" align="center" style="color: #004D40; font-weight: bold; border-radius: 50%; font-size: 16px;">02</td></tr>
                                     </table>
                                 </td>
                                 <td valign="top" style="padding-bottom: 25px;">
-                                    <strong style="font-size: 17px; color: #004D40;">수학과 통계 (Math & Statistics)</strong>
-                                    <p class="mobile-text" style="margin: 5px 0 0 0; font-size: 15px; color: #555555; line-height: 1.5;">
+                                    <strong style="font-size: 20px; color: #004D40;">수학과 통계 (Math & Statistics)</strong>
+                                    <p class="mobile-text" style="margin: 8px 0 0 0; font-size: 18px; color: #555555; line-height: 1.6;">
                                         복잡한 계산과 데이터 분석 방법은 AI가 제공합니다. 우리는 <strong style="color:#000000;">데이터를 검토하는 통찰력</strong>만 키우면 됩니다.
                                     </p>
                                 </td>
                             </tr>
                             <tr>
-                                <td width="50" valign="top" style="padding-bottom: 25px;">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="36">
-                                        <tr><td height="36" bgcolor="#E0F2F1" align="center" style="color: #004D40; font-weight: bold; border-radius: 50%;">03</td></tr>
+                                <td width="55" valign="top" style="padding-bottom: 25px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="40">
+                                        <tr><td height="40" bgcolor="#E0F2F1" align="center" style="color: #004D40; font-weight: bold; border-radius: 50%; font-size: 16px;">03</td></tr>
                                     </table>
                                 </td>
                                 <td valign="top" style="padding-bottom: 25px;">
-                                    <strong style="font-size: 17px; color: #004D40;">컴퓨터 과학 (Computer Science)</strong>
-                                    <p class="mobile-text" style="margin: 5px 0 0 0; font-size: 15px; color: #555555; line-height: 1.5;">
+                                    <strong style="font-size: 20px; color: #004D40;">컴퓨터 과학 (Computer Science)</strong>
+                                    <p class="mobile-text" style="margin: 8px 0 0 0; font-size: 18px; color: #555555; line-height: 1.6;">
                                         파이썬(Python) 코딩 역시 AI가 대신 작성합니다. 우리는 <strong style="color:#000000;">컴퓨터에게 일을 시키는 '논리'</strong> 만 배우면 됩니다.
                                     </p>
                                 </td>
@@ -147,7 +153,7 @@
 
                          <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#E8F5E9" style="margin-top: 10px;">
                             <tr>
-                                <td style="padding: 15px; text-align: center; color: #004D40; font-weight: bold; font-size: 16px;">
+                                <td style="padding: 18px; text-align: center; color: #004D40; font-weight: bold; font-size: 18px;">
                                     "본 시리즈는 코딩 교육이 아닙니다. AI 감각 함양을 목표로 합니다."
                                 </td>
                             </tr>
@@ -165,50 +171,50 @@
 
                 <tr>
                     <td class="mobile-padding" style="padding: 40px 50px 20px 50px;">
-                        <h2 style="margin: 0 0 20px 0; font-size: 22px; color: #111111; font-weight: bold;">
+                        <h2 style="margin: 0 0 25px 0; font-size: 26px; color: #111111; font-weight: bold;">
                             The Journey: 6단계의 여정
                         </h2>
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                                <td valign="top" width="100" style="padding-bottom: 20px; color: #004D40; font-weight: bold; font-size: 15px;">Chapter 1</td>
-                                <td valign="top" style="padding-bottom: 20px;">
-                                    <strong style="font-size: 15px; color: #333333;">컴퓨터가 작동하는 법 <span style="color: #999999; font-weight: normal;">(컴퓨터과학)</span></strong><br>
-                                    <span style="font-size: 14px; color: #666666;">기계에게 일을 시키는 '논리적 사고'</span>
+                                <td valign="top" width="115" style="padding-bottom: 25px; color: #004D40; font-weight: bold; font-size: 18px;">Chapter 1</td>
+                                <td valign="top" style="padding-bottom: 25px;">
+                                    <strong style="font-size: 20px; color: #333333;">컴퓨터가 작동하는 법 <span style="color: #999999; font-weight: normal;">(컴퓨터과학)</span></strong><br>
+                                    <div style="margin-top: 6px;"><span style="font-size: 18px; color: #666666; line-height: 1.6;">기계에게 일을 시키는 '논리적 사고'</span></div>
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" width="100" style="padding-bottom: 20px; color: #004D40; font-weight: bold; font-size: 15px;">Chapter 2</td>
-                                <td valign="top" style="padding-bottom: 20px;">
-                                    <strong style="font-size: 15px; color: #333333;">데이터 리터러시 <span style="color: #999999; font-weight: normal;">(통계학)</span></strong><br>
-                                    <span style="font-size: 14px; color: #666666;">숫자에 속지 않고 맥락을 읽어내는 감각</span>
+                                <td valign="top" width="115" style="padding-bottom: 25px; color: #004D40; font-weight: bold; font-size: 18px;">Chapter 2</td>
+                                <td valign="top" style="padding-bottom: 25px;">
+                                    <strong style="font-size: 20px; color: #333333;">데이터 리터러시 <span style="color: #999999; font-weight: normal;">(통계학)</span></strong><br>
+                                    <div style="margin-top: 6px;"><span style="font-size: 18px; color: #666666; line-height: 1.6;">숫자에 속지 않고 맥락을 읽어내는 감각</span></div>
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" width="100" style="padding-bottom: 20px; color: #004D40; font-weight: bold; font-size: 15px;">Chapter 3</td>
-                                <td valign="top" style="padding-bottom: 20px;">
-                                    <strong style="font-size: 15px; color: #333333;">AI의 작동 원리 <span style="color: #999999; font-weight: normal;">(수학과 통계학)</span></strong><br>
-                                    <span style="font-size: 14px; color: #666666;">확률과 행렬 연산, 딥러닝이 결과를 생성하는 구조적 이해</span>
+                                <td valign="top" width="115" style="padding-bottom: 25px; color: #004D40; font-weight: bold; font-size: 18px;">Chapter 3</td>
+                                <td valign="top" style="padding-bottom: 25px;">
+                                    <strong style="font-size: 20px; color: #333333;">AI의 작동 원리 <span style="color: #999999; font-weight: normal;">(수학과 통계학)</span></strong><br>
+                                    <div style="margin-top: 6px;"><span style="font-size: 18px; color: #666666; line-height: 1.6;">확률과 행렬 연산, 딥러닝이 결과를 생성하는 구조적 이해</span></div>
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" width="100" style="padding-bottom: 20px; color: #004D40; font-weight: bold; font-size: 15px;">Chapter 4</td>
-                                <td valign="top" style="padding-bottom: 20px;">
-                                    <strong style="font-size: 15px; color: #333333;">AI 활용 <span style="color: #999999; font-weight: normal;">(Agent)</span></strong><br>
-                                    <span style="font-size: 14px; color: #666666;">단순 대화를 넘어, 직접 컴퓨터를 제어하는 AI Agent의 활용법</span>
+                                <td valign="top" width="115" style="padding-bottom: 25px; color: #004D40; font-weight: bold; font-size: 18px;">Chapter 4</td>
+                                <td valign="top" style="padding-bottom: 25px;">
+                                    <strong style="font-size: 20px; color: #333333;">AI 활용 <span style="color: #999999; font-weight: normal;">(Agent)</span></strong><br>
+                                    <div style="margin-top: 6px;"><span style="font-size: 18px; color: #666666; line-height: 1.6;">단순 대화를 넘어, 직접 컴퓨터를 제어하는 AI Agent의 활용법</span></div>
                                 </td>
                             </tr>
                             <tr>
-                                <td valign="top" width="100" style="padding-bottom: 20px; color: #004D40; font-weight: bold; font-size: 15px;">Chapter 5</td>
-                                <td valign="top" style="padding-bottom: 20px;">
-                                    <strong style="font-size: 15px; color: #333333;">이상향</strong><br>
-                                    <span style="font-size: 14px; color: #666666;">데이터가 흐르고 전사가 유기적으로 연결된 미래 비전</span>
+                                <td valign="top" width="115" style="padding-bottom: 25px; color: #004D40; font-weight: bold; font-size: 18px;">Chapter 5</td>
+                                <td valign="top" style="padding-bottom: 25px;">
+                                    <strong style="font-size: 20px; color: #333333;">이상향</strong><br>
+                                    <div style="margin-top: 6px;"><span style="font-size: 18px; color: #666666; line-height: 1.6;">데이터가 흐르고 전사가 유기적으로 연결된 미래 비전</span></div>
                                 </td>
                             </tr>
                              <tr>
-                                <td valign="top" width="100" style="padding-bottom: 20px; color: #004D40; font-weight: bold; font-size: 15px;">Chapter 6</td>
-                                <td valign="top" style="padding-bottom: 20px;">
-                                    <strong style="font-size: 15px; color: #333333;">실무 활용과 장벽</strong><br>
-                                    <span style="font-size: 14px; color: #666666;">보안, 데이터 사일로 등 현업 도입 시 마주하는 현실적인 장벽과 한계</span>
+                                <td valign="top" width="115" style="padding-bottom: 25px; color: #004D40; font-weight: bold; font-size: 18px;">Chapter 6</td>
+                                <td valign="top" style="padding-bottom: 25px;">
+                                    <strong style="font-size: 20px; color: #333333;">실무 활용과 장벽</strong><br>
+                                    <div style="margin-top: 6px;"><span style="font-size: 18px; color: #666666; line-height: 1.6;">보안, 데이터 사일로 등 현업 도입 시 마주하는 현실적인 장벽과 한계</span></div>
                                 </td>
                             </tr>
                         </table>
@@ -225,12 +231,12 @@
 
                 <tr>
                     <td class="mobile-padding" style="padding: 30px 50px;">
-                        <h2 style="margin: 0 0 20px 0; font-size: 22px; color: #111111; font-weight: bold;">
+                        <h2 style="margin: 0 0 20px 0; font-size: 26px; color: #111111; font-weight: bold;">
                             참고 자료 및 문의
-                        </h2>zf
-                         <ul style="margin: 0; padding-left: 20px; font-size: 14px; color: #555555; line-height: 1.8;">
-                            <li><a href="#" style="color:#004D40; text-decoration:underline;">사내 AI 학습 커뮤니티 바로가기</a></li>
-                            <li><a href="#" style="color:#004D40; text-decoration:underline;">AI Insight 지난 호 보기 (Archive)</a></li>
+                        </h2>
+                         <ul style="margin: 0; padding-left: 20px; font-size: 18px; color: #555555; line-height: 1.8;">
+                            <li><a href="index.html" style="color:#004D40; text-decoration:underline;">AI Insight 전체 목차 보기 (Archive)</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=pT2NMrlTjNU" style="color:#004D40; text-decoration:underline;">AI시대 경제학은 어떠해야하나? “수식 줄이고 상식 복원할 기회”</a>(류근관 서울대 교수)(⏳30min)</li>
                             <li>문의: 사업관리팀 나현수 매니저 (내선: 1234)</li>
                         </ul>
                     </td>
@@ -246,21 +252,21 @@
 
                 <tr>
                     <td class="mobile-padding" style="padding: 30px 50px 40px 50px;">
-                        <h2 style="margin: 0 0 20px 0; font-size: 22px; color: #111111; font-weight: bold;">
+                        <h2 style="margin: 0 0 20px 0; font-size: 26px; color: #111111; font-weight: bold;">
                             TMI (Too Much Information)
                         </h2>
-                        <ul style="margin: 0; padding-left: 20px; font-size: 14px; color: #555555; line-height: 1.8;">
-                            <li style="margin-bottom: 10px;">
-                                <strong style="color:#000000;">왜 하필 'Insight'인가?:</strong> 
-                                본질을 꿰뚫는 '통찰력'만 가져가자는 의미로 정했습니다.
+                        <ul style="margin: 0; padding-left: 20px; font-size: 18px; color: #555555; line-height: 1.8;">
+                            <li style="margin-bottom: 12px;">
+                                <strong style="color:#000000; font-size: 20px;">TMI? :</strong><br>
+                                자세하지만, 쓸 데 없는 디테일한 기술적 내용을 서술하는 문단입니다.
                             </li>
-                            <li style="margin-bottom: 10px;">
-                                <strong style="color:#000000;">다음 호 예고:</strong> 
-                                Chapter 1에서는 "컴퓨터에게 일을 시키는 법"을 다룹니다. 생각보다 우리말을 잘 못 알아듣는 이 기계 덩어리와 소통하는 노하우를 공개합니다.
+                            <li style="margin-bottom: 12px;">
+                                <strong style="color:#000000; font-size: 20px;">왜 하필 'Insight'인가? :</strong><br>
+                                본질을 꿰뚫는 '감각'과 '통찰력'만 가져가자는 의미로 정했습니다.
                             </li>
                             <li>
-                                <strong style="color:#000000;">작성자 후기:</strong> 
-                                사실 저도 AI 사용 이후 코딩 능력이 퇴화하였습니다. 하지만 AI에게 코드를 짜달라고 시키는 건 자신 있습니다. 그 비결을 앞으로 하나씩 풀겠습니다.
+                                <strong style="color:#000000; font-size: 20px;">다음 호 예고 :</strong><br>
+                                Chapter 1에서는 "컴퓨터에게 일을 시키는 법"을 다룹니다. 애매모호함이 없어야하는 논리 소통 기계를 소개합니다.
                             </li>
                         </ul>
                     </td>
@@ -270,13 +276,13 @@
                     <td bgcolor="#333333" class="mobile-padding" style="padding: 30px 50px;">
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                                <td style="color: #ffffff; font-size: 20px; font-weight: bold; padding-bottom: 10px;">
+                                <td style="color: #ffffff; font-size: 22px; font-weight: bold; padding-bottom: 10px;">
                                     현대건설
                                 </td>
                             </tr>
                             <tr>
-                                <td style="color: #999999; font-size: 12px;">
-                                    Copyright © 2026 Hyundai E&C. All rights reserved.<br>
+                                <td style="color: #999999; font-size: 14px;">
+                                    Copyright © 2026 HYUNDAI E&C. All rights reserved.<br>
                                     Created by Project Management Team, 나현수 매니저.
                                 </td>
                             </tr>
@@ -286,7 +292,7 @@
 
             </table>
 
-            </div>
+        </div>
     </center>
 </body>
 </html>
